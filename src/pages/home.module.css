@@ -1,0 +1,12 @@
+.tabs :global(.mantine-Tabs-tab ) {
+  flex-grow: 0 !important;
+}
+.tabs :global(.mantine-Tabs-tabsList ) {
+  display:flex !important;
+justify-content: center;
+}
+.titleAnimation {
+  display: flex;
+  white-space: nowrap;
+  transition: background-color .5s ease, color .5s ease, width 1s ease;
+}
